@@ -78,7 +78,7 @@ const AnimatedDashboard = () => {
                     backgroundColor:
                       i === barHeights.length - 1
                         ? "hsl(var(--accent))"
-                        : "hsl(var(--pale-blue) / 0.5)"
+                        : "hsl(var(--pale-blue) / 0.75)"
                   }}
                   animate={{
                     height: [`${h * 0.7}%`, `${h}%`, `${h * 0.85}%`, `${h}%`]
@@ -146,7 +146,7 @@ const AnimatedDashboard = () => {
 
         <div className="mt-2 flex gap-3">
           {[
-            { label: "Goals Met", pct: 78, color: "hsl(var(--light-green))" },
+            { label: "Goals Met", pct: 78, color: "hsl(var(--accent))" },
             { label: "Attendance", pct: 96, color: "hsl(var(--pale-blue))" },
             { label: "Payroll Accuracy", pct: 99, color: "hsl(var(--accent))" }
           ].map((m, i) => (
