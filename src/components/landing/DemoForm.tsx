@@ -61,11 +61,11 @@ const DemoForm = ({ open, onClose }: DemoFormProps) => {
                 <form onSubmit={handleSubmit} className="space-y-4">
                   <div>
                     <Label htmlFor="name">Full Name</Label>
-                    <Input id="name" placeholder="Jane Mwangi" required />
+                    <Input id="name" placeholder="Libbie Sonia" required />
                   </div>
                   <div>
                     <Label htmlFor="email">Work Email</Label>
-                    <Input id="email" type="email" placeholder="jane@company.com" required />
+                    <Input id="email" type="email" placeholder="libbie@syncscore.io" required />
                   </div>
                   <div>
                     <Label htmlFor="phone">Phone Number</Label>
@@ -73,7 +73,7 @@ const DemoForm = ({ open, onClose }: DemoFormProps) => {
                   </div>
                   <div>
                     <Label htmlFor="company">Company Name</Label>
-                    <Input id="company" placeholder="Acme Corp" required />
+                    <Input id="company" placeholder="Sync Score Ltd" required />
                   </div>
                   <div>
                     <Label htmlFor="teamSize">Team Size</Label>
